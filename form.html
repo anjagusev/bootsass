@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+        <script src="./javascripts/jquery.js"></script>
+    <script type="text/javascript" src="javascripts/autofocus.js"></script>
+    <link href="./stylesheets/styles.css" rel="stylesheet">
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../javascripts/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+<body>
+<div class="container">
+
+     
+
+<form class="form-horizontal" id="signup-form" name="signup-form" action="" method="post">
+  <h1>Signup</h1>
+
+      <p>This form is take home exercise.</p>
+  <div class="control-group">
+    <label class="control-label">Name:</label> 
+    <div class="controls">
+      <input type="text" name="fname" id="fname" placeholder="First Name" autofocus  required>
+       <script>$(document).trigger('focus_ready');</script>
+    </div><!--/controls-->
+  </div><!--/control-group-->  
+
+<div class="control-group">
+  <label class="control-label">Last Name</label>
+  <div class="controls">
+    <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+  </div><!--/controls-->
+</div><!--/control-group-->
+
+<div class="control-group">
+  <label class="control-label">Email</label>
+  <div class="controls">
+  <input type="email" name="email" id="email" placeholder="Email" required>
+  </div><!--/controls-->
+</div><!--/control-group-->
+
+<div class="control-group">
+  <label class="control-label">Age Range:</label>
+  <div class="controls">
+   <select required>
+    <option value="">Select Age Range</option>
+    <option value="1">17 and under</option>
+    <option value="2">18-25</option>
+    <option value="3">26-30</option>
+    <option value="4">31-35</option>
+    <option value="5">36-40</option>
+    <option value="6">41-45</option>
+    <option value="7">46-50</option>
+    <option value="8">50-55</option>
+    <option value="9">56-60</option>
+    <option value="10">61-65</option>
+    <option value="11">65+</option>
+  </select>
+  </div><!--/controls-->
+</div><!--/control-group-->
+
+<div class="control-group">
+  <label class="control-label">Country:</label>
+  <div class="controls">
+  <input type="text" data-provide="typeahead" id="country" name="country" placeholder="Country" required>
+  </div><!--/controls-->
+</div><!--/control-group-->
+
+<div class="control-group">
+  <label class="control-label">Province:</label>
+  <div class="controls">
+  <input type="text" id="province" name="province" placeholder="Province/State" data-provide="typeahead" required>
+  </div><!--/controls-->
+</div><!--/control-group-->
+
+<div class="control-group">
+  <div class="controls">
+  <button type="submit" name="submit" id="submit" class="btn" class="btn btn-primary">Submit</button>
+  <button type="button" class="btn">Cancel</button>    
+ </div><!--/controls-->
+</div><!--/control-group-->
+</form>
+
+</div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./javascripts/bootstrap-transition.js"></script>
+    <script src="./javascripts/bootstrap-alert.js"></script>
+    <script src="./javascripts/bootstrap-modal.js"></script>
+    <script src="./javascripts/bootstrap-dropdown.js"></script>
+    <script src="./javascripts/bootstrap-scrollspy.js"></script>
+    <script src="./javascripts/bootstrap-tab.js"></script>
+    <script src="./javascripts/bootstrap-tooltip.js"></script>
+    <script src="./javascripts/bootstrap-popover.js"></script>
+    <script src="./javascripts/bootstrap-button.js"></script>
+    <script src="./javascripts/bootstrap-collapse.js"></script>
+    <script src="./javascripts/bootstrap-carousel.js"></script>
+    <script src="./javascripts/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
